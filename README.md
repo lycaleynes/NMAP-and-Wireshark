@@ -18,18 +18,18 @@
 <h3>Outdated OpenSSH Version on Multiple Hosts</h3>
 
 <p align="center">
-<img src="https://i.imgur.com/bdcV3Qm.png" height="80%" width="80%" alt="NMAP"/>
+<img src="https://i.imgur.com/mzdrrdS.png" height="80%" width="80%" alt="NMAP"/>
 <br />
-<img src="https://i.imgur.com/ZO317cc.png" height="80%" width="80%" alt="NMAP"/>
+<img src="https://i.imgur.com/OhThrAi.png" height="80%" width="80%" alt="NMAP"/>
 <br />
-<img src="https://i.imgur.com/xFEDgEW.png" height="80%" width="80%" alt="NMAP"/>
+<img src="https://i.imgur.com/XXdRh8u.png" height="80%" width="80%" alt="NMAP"/>
 
 <p>Multiple hosts within the network are running an outdated version of OpenSSH. Specifically, the hosts with IP addresses 10.168.27.14, 10.168.27.20, and 10.168.27.132 are operating on OpenSSH 5.5p1 Debian 6+squeeze5. This version, released around 2010, is significantly outdated and is susceptible to known vulnerabilities such as CVE-2016-0777 and CVE-2016-0778. These vulnerabilities allow attackers to extract private SSH keys from the server's memory using the roaming feature, potentially leading to unauthorized access and privilege escalation (OpenSSH, 2016). Moreover, Debian 6 ("Squeeze") has reached its end-of-life, meaning it no longer receives security updates, further exacerbating the risk.</p>
 
 <h3>Vulnerable SMB Services on Windows Server 2008 R2</h3>
 
 <p align="center">
-<img src="https://i.imgur.com/7MopljN.png" height="80%" width="80%" alt="NMAP"/>
+<img src="https://i.imgur.com/u6VA1TX.png" height="80%" width="80%" alt="NMAP"/>
 <br />
 
 <p>The server at IP address 10.168.27.10 is running Microsoft Windows Server 2008 R2 with SMB services active on ports 139/TCP and 445/TCP. This configuration is vulnerable to the EternalBlue exploit (CVE-2017-0144), which allows remote attackers to execute arbitrary code via crafted packets, leading to potential full system compromise (Microsoft, 2017). This vulnerability was famously exploited by the WannaCry ransomware, which encrypted data and demanded payment, causing widespread disruption globally. The exploitation could also enable attackers to propagate through the network, targeting other devices and increasing the scale of the attack.</p>
@@ -37,7 +37,7 @@
 <h3>Unsecured FTP Service Using FileZilla Server</h3>
 
 <p align="center">
-<img src="https://i.imgur.com/yxCofPG.png" height="80%" width="80%" alt="NMAP"/>
+<img src="https://i.imgur.com/RA6suxq.png" height="80%" width="80%" alt="NMAP"/>
 <br />
 
 <p>The host at IP address 10.168.27.15 is running an unsecured FTP service using FileZilla Server. Without specific version details, it's challenging to pinpoint exact vulnerabilities; however, older versions of FileZilla Server have been associated with vulnerabilities like directory traversal (CVE-2017-16023) and denial of service issues (National Vulnerability Database, 2017). Additionally, FTP inherently transmits data, including credentials, in plain text, making it susceptible to interception and man-in-the-middle attacks. This could lead to unauthorized access to sensitive files, credential theft, and even the distribution of malware through the compromised server.</p>
