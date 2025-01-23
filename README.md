@@ -9,11 +9,7 @@
 <h2>Network Topology</h2>
 
 <p align="center">
-<img src="https://i.imgur.com/syQiFT5.png" height="80%" width="80%" alt="Network Topology"/>
-<br />
-<br />
-<img src="https://i.imgur.com/znBJi8M.png" height="80%" width="80%" alt="Network Topology"/>
-</p>
+<img src="https://i.imgur.com/KDThErQ.jpeg" height="80%" width="80%" alt="Network Topology"/>
 
 <p>This network topology is a star topology with a central node labeled "localhost," which acts as the hub. Several nodes are connected directly to this central hub via dashed lines, representing their network connections. Each connected node is identified by its IP address, with six nodes in total: 10.168.27.1, 10.168.27.132, 10.168.27.20, 10.168.27.14, 10.168.27.10, and 10.168.27.15.</p>
 
@@ -33,7 +29,7 @@
 <h3>Vulnerable SMB Services on Windows Server 2008 R2</h3>
 
 <p align="center">
-<img src="https://i.imgur.com/dWstlty.png" height="80%" width="80%" alt="NMAP"/>
+<img src="https://i.imgur.com/7MopljN.png" height="80%" width="80%" alt="NMAP"/>
 <br />
 
 <p>The server at IP address 10.168.27.10 is running Microsoft Windows Server 2008 R2 with SMB services active on ports 139/TCP and 445/TCP. This configuration is vulnerable to the EternalBlue exploit (CVE-2017-0144), which allows remote attackers to execute arbitrary code via crafted packets, leading to potential full system compromise (Microsoft, 2017). This vulnerability was famously exploited by the WannaCry ransomware, which encrypted data and demanded payment, causing widespread disruption globally. The exploitation could also enable attackers to propagate through the network, targeting other devices and increasing the scale of the attack.</p>
