@@ -4,7 +4,7 @@
 
 <p>In the changing field of cybersecurity, we need to continually identify new threats to your network as evidenced in the network itself and the traffic on that network. We need to know how to run network mapping and monitoring software to find vulnerabilities and anomalies that could impact the security of your network in order to recommend sound solutions.</p>
 
-<p>For this task, I used the virtual world at the “Performance Assessment Lab” web link from my school and accessed the files and lab environment necessary to run both Nmap and Wireshark on the network associated with this task. I also recommended solutions to address any issues I have found.</p>
+<p>For this project, I used the virtual world at the “Performance Assessment Lab” web link from my school and accessed the files and lab environment necessary to run both Nmap and Wireshark on the network associated with this task. I also recommended solutions to address any issues I have found.</p>
 
 <h2>Network Topology</h2>
 
