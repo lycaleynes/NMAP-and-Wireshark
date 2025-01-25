@@ -1,4 +1,4 @@
-<h1>NMAP and Wireshark</h1>
+<h1>Nmap and Wireshark</h1>
 
 <h2>Description</h2>
 
